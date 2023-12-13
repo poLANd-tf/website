@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
+    url(/bg.png) center / cover,
+    lightgray 50% / cover no-repeat;
+}
