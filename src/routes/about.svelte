@@ -18,7 +18,7 @@
     <div class="flex flex-col items-start">
       <span class="section-name">About the event</span>
 
-      <h2 class="mt-4"><Markdown source={header} /></h2>
+      <h4 class="mt-4"><Markdown source={header} /></h4>
       <span class="mt-8"><Markdown source={content} /></span>
       <a href="/" class="button mt-[41px]">Learn more</a>
     </div>
@@ -29,7 +29,7 @@
 </div>
 
 <style lang="postcss">
-  h2 {
+  h4 {
     font-family: Gabarito;
     font-size: 64px;
     font-style: normal;

@@ -2,6 +2,7 @@
   import About from './about.svelte';
   import NavigationBar from './navigation-bar.svelte';
   import NextEvent from './next-event.svelte';
+  import TravelAdvice from './travel-advice.svelte';
 
   /** @type {import('./$types').PageData} */
   export let data;
@@ -19,6 +20,7 @@
   </div>
 
   <About {...data.about} />
+  <TravelAdvice />
 </div>
 
 <style lang="postcss">
