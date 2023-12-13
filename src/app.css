@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Space+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,9 +11,32 @@ html {
 
 body {
   height: 100vh;
+}
 
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
-    url(/bg.png) center / cover,
-    lightgray 50% / cover no-repeat;
+.section-name {
+  color: theme(colors.red);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-flex;
+  padding: 24px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 127px;
+  background: theme(colors.red);
+
+  color: theme(colors.offwhite);
+  font-family: Gabarito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 75% */
+
+  text-transform: uppercase;
 }
