@@ -1,0 +1,15 @@
+.git
+.github
+.svelte-kit
+.vscode
+node_modules
+.eslintignore
+.eslintrc.cjs
+.gitignore
+.npmrc
+.prettierignore
+.prettierrc
+.stylelintrc.json
+.yarnrc.yml
+playwright.config.ts
+renovate.json
