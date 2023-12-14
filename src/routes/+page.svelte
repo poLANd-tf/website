@@ -7,6 +7,10 @@
   export let data;
 </script>
 
+<svelte:head>
+  <title>poLANd.tf</title>
+</svelte:head>
+
 <div class="flex flex-col h-full">
   <div class="banner flex flex-col">
     <NavigationBar />
