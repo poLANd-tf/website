@@ -26,6 +26,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
       - name: Install dependencies
         run: pnpm install
 
@@ -41,6 +44,9 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
 
       - name: Install dependencies
         run: pnpm install
