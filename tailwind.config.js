@@ -11,6 +11,7 @@ export default {
       colors: {
         offwhite: '#f3f3f3',
         red: '#dd3a39',
+        charcoal: '#4E4E4E',
       },
     },
   },

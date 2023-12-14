@@ -1,6 +1,10 @@
 <script>
+  import About from './about.svelte';
   import NavigationBar from './navigation-bar.svelte';
   import NextEvent from './next-event.svelte';
+
+  /** @type {import('./$types').PageData} */
+  export let data;
 </script>
 
 <div class="flex flex-col h-full">
@@ -9,12 +13,15 @@
     <NextEvent />
     <div class="h-[124px]"></div>
   </div>
+
+  <About {...data.about} />
 </div>
 
 <style lang="postcss">
   .banner {
     flex: 1 1 0%;
-    height: 100%;
+    height: 100vh;
+    min-height: 100vh;
     background:
       linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
       url(/bg.png) center / cover,
