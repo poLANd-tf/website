@@ -2,7 +2,7 @@
   import { IconArrowUpRight } from '@tabler/icons-svelte';
 </script>
 
-<div class="min-h-screen bg-[#e9e9e9]- grid place-items-center">
+<div class="min-h-screen bg-[#e9e9e9] grid place-items-center">
   <div class="container mx-auto grid place-items-center">
     <div class="flex flex-col">
       <span class="section-name">Travel advice</span>
