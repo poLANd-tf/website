@@ -2,6 +2,7 @@
   import About from './about.svelte';
   import NavigationBar from './navigation-bar.svelte';
   import NextEvent from './next-event.svelte';
+  import Schedule from './schedule.svelte';
   import TheVenue from './the-venue.svelte';
   import TravelAdvice from './travel-advice.svelte';
 
@@ -23,6 +24,7 @@
   <About {...data.about} />
   <TravelAdvice />
   <TheVenue />
+  <Schedule />
 </div>
 
 <style lang="postcss">
